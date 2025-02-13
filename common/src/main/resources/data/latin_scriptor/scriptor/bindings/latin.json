@@ -1,0 +1,12 @@
+{
+  "generator": "latin_scriptor:latin",
+  "bindings": [
+    {
+      "word": "other:and",
+      "parameters": {
+        "min_tokens": 0,
+        "max_tokens": 0
+      }
+    }
+  ]
+}

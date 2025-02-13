@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "latin_scriptor",
+  "version": "${version}",
+  "name": "Latin Scriptor",
+  "description": "This makes the spell components of Scriptor sound more latin",
+  "authors": [
+    "GuiTaek"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/latin_scriptor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gmail.guitaekm.latin_scriptor.fabric.LatinScriptorModFabric"
+    ],
+    "client": [
+      "com.gmail.guitaekm.latin_scriptor.fabric.client.LatinScriptorModFabricClient"
+    ]
+  },
+  "mixins": [
+    "latin_scriptor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-language-kotlin": ">=1.13.1+kotlin.2.1.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "scriptor": ">=1.3.5-1.21"
+  }
+}
