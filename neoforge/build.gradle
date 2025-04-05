@@ -53,9 +53,7 @@ dependencies {
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')
 
-    // change back the moment, it's published
-    // api "maven.modrinth:scriptor-magicae:$rootProject.scriptor_version-neoforge"
-    api files("libs/scriptor-unpublished-neoforge.jar")
+    api "maven.modrinth:scriptor-magicae:$rootProject.scriptor_version-neoforge"
 
     modImplementation("com.ssblur.unfocused:unfocused-neoforge:${rootProject.unfocused_version}")
 }

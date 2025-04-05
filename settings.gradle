@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'scriptor_unique_grammar'
+rootProject.name = 'latin_scriptor'
 
 include 'common'
 include 'fabric'

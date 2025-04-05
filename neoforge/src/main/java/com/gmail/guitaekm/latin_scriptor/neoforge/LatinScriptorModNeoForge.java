@@ -6,7 +6,7 @@ import com.gmail.guitaekm.latin_scriptor.LatinScriptorMod;
 
 @Mod(LatinScriptorMod.MOD_ID)
 public final class LatinScriptorModNeoForge {
-    public ExampleModNeoForge() {
+    public LatinScriptorModNeoForge() {
         // Run our common setup.
         LatinScriptorMod.INSTANCE.init();
     }

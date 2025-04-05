@@ -26,9 +26,7 @@ dependencies {
     // Do NOT use other classes from Fabric Loader.
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
 
-    // change back when published
-    // modCompileOnly "maven.modrinth:scriptor-magicae:$rootProject.scriptor_version-fabric"
-    modCompileOnlyApi files("libs/scriptor-unpublished-fabric.jar")
+    modCompileOnlyApi "maven.modrinth:scriptor-magicae:$rootProject.scriptor_version-fabric"
 }
 
 kotlin {
